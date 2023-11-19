@@ -1,0 +1,26 @@
+<ResourceDictionary  xmlns="https://github.com/avaloniaui"
+                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                     xmlns:v="clr-namespace:Test.Views"
+                     xmlns:vm="clr-namespace:Test.ViewModels">
+    <Design.PreviewWith>
+        <v:Connector Width="10" Height="10"/>
+    </Design.PreviewWith>
+
+    <ControlTheme x:Key="{x:Type v:Connector}" TargetType="v:Connector">
+        <Setter Property="Template">
+            <ControlTemplate x:DataType="vm:ConnectorViewModel">
+                <!-- Doesnt work -->
+                <Polygon Width="10" 
+                         Height="10" 
+                         Fill="BlueViolet"
+                         Stroke="Blue"
+                         StrokeThickness="4"
+                         Points="0,0 10,0 10,10 0,10"/>
+                
+                <!-- Would work 
+                <Ellipse Width="10" Height="10" Fill="Red"/>
+                --> 
+            </ControlTemplate>
+        </Setter>
+    </ControlTheme>
+</ResourceDictionary>

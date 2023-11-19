@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="Test/App.axaml" value="Test/Test.csproj" />
+        <entry key="Test/Themes/Controls/Connector.axaml" value="Test/Test.csproj" />
+        <entry key="Test/Themes/MainTheme.axaml" value="Test/Test.csproj" />
+        <entry key="Test/Themes/Styles/Connector.axaml" value="Test/Test.csproj" />
+        <entry key="Test/Themes/Theme.axaml" value="Test/Test.csproj" />
+        <entry key="Test/Themes/Views/Connector.axaml" value="Test/Test.csproj" />
+        <entry key="Test/Views/MainWindow.axaml" value="Test/Test.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
